@@ -1,16 +1,18 @@
-[principles]: https://github.com/ksindi/managers-playbook/blob/master/README.md#principles
-[one-on-ones]: https://github.com/ksindi/managers-playbook/blob/master/README.md#one-on-ones
-[coaching]: https://github.com/ksindi/managers-playbook/blob/master/README.md#coaching
-[feedback]: https://github.com/ksindi/managers-playbook/blob/master/README.md#feedback
-[thinking-strategically]: https://github.com/ksindi/managers-playbook/blob/master/README.md#thinking-strategically
-[making-decisions]: https://github.com/ksindi/managers-playbook/blob/master/README.md#making-decisions
-[coding]: https://github.com/ksindi/managers-playbook/blob/master/README.md#coding
-[ticket-and-pr-process]: https://github.com/ksindi/managers-playbook/blob/master/README.md#ticket-and-pr-process
-[meetings]: https://github.com/ksindi/managers-playbook/blob/master/README.md#meetings
-[hiring]: https://github.com/ksindi/managers-playbook/blob/master/README.md#hiring
-[onboarding]: https://github.com/ksindi/managers-playbook/blob/master/README.md#onboarding
-[announcing-change]: https://github.com/ksindi/managers-playbook/blob/master/README.md#announcing-change
-[further-reading]: https://github.com/ksindi/managers-playbook/blob/master/README.md#further-reading
+[principles]: #principles
+[one-on-ones]: #one-on-ones
+[coaching]: #coaching
+[feedback]: #feedback
+[thinking-strategically]: #thinking-strategically
+[making-decisions]: #making-decisions
+[coding]: #coding
+[ticket-and-pr-process]: #ticket-and-pr-process
+[communicating]: #communicating
+[hiring]: #hiring
+[onboarding]: #onboarding
+[announcing-change]: #announcing-change
+[managing-up]: #managing-up
+[managing-sideways]: #managing-sideways
+[further-reading]: #further-reading
 
 # Manager's Playbook
 
@@ -20,41 +22,40 @@ Heuristics for effective management.
 ## Table of Contents
 
 1. [Principles][principles]
-1. [One on ones][one-on-ones]
+1. [One-on-ones][one-on-ones]
 1. [Coaching][coaching]
 1. [Feedback][feedback]
 1. [Thinking strategically][thinking-strategically]
 1. [Making decisions][making-decisions]
 1. [Coding][coding]
 1. [Ticket and PR process][ticket-and-pr-process]
-1. [Meetings][meetings]
+1. [Communicating][communicating]
 1. [Hiring][hiring]
 1. [Onboarding][onboarding]
+1. [Managing up][managing-up]
+1. [Managing sideways][managing-sideways]
 1. [Announcing change][announcing-change]
 1. [Further reading][further-reading]
 
 
 ## Principles
 
-1. Always be aware of what's going on in your team and product.
-1. Know the architecture just as well as anyone else — and stay current with the tech stack.
-1. Schedule 1-1s with your direct reports on a weekly basis. Schedule skip-levels on a monthly basis.
-1. Be customer-focused. Understand how your products are used in the wild. For example, join sales and support calls.
-1. Set aggressive but achievable goals. Work backwards by focusing on the outcomes you want to achieve.
-1. When giving advice or feedback, encourage ownership by asking open questions.
 1. Have a bias for action and decision-making over planning and consensus.
-1. Be the team coach and cheerleader. Celebrate success often and reinforce positive behavior.
+1. Favor [writing][communicating] over meeting.
+1. Understand how your products are used in the wild. For example, join sales and support calls.
+1. Work backward by focusing on the outcomes you want to achieve.
+1. Encourage ownership by asking [open questions][coaching].
+1. Be the cheerleader. Celebrate success often and reinforce positive behavior.
 1. Know how to differentiate between [reversible and irreversible decisions][making-decisions].
 1. Ensure every report is aware of the top priorities of the team, organization and company.
-1. Be the example. Only preach what you practice.
-1. No task is beneath a manager. Get your hands dirty even if it's not coding:
+1. No task is beneath a manager. Get your hands dirty even if it's not coding:  
     <img src="images/non-coding-contributions.png" width="400">
 
 
-## One on ones
+## One-on-ones
 
-1. Never skip one on ones. It's the best platform for receiving and giving feedback. Most teammates value it and usually when they don't it's because they haven't seen one conducted well.
-1. Aim for weekly one on ones.
+1. Never skip one-on-ones. It's the best platform for receiving and giving feedback. Most teammates value it and usually when they don't it's because they haven't seen one conducted well.
+1. Aim for weekly one-on-ones.
 1. Focus on 5 topics:
     - Predictability: create routine, set expectations, normalize change.
     - Ownership: offer options, clarify ownership, give more responsibilities.
@@ -92,9 +93,13 @@ Heuristics for effective management.
         1. What are your top priorities this week?
         1. What will success look like?
         1. What are obstacles?
-1. Encourage your direct reports to bring up topics in 1-1:  
+1. Encourage your direct reports to bring up topics:  
     <img src="images/1_1s.jpg" width="400">  
-1. See [getting more from your one on ones](https://medium.com/@sbourke/getting-more-from-your-1-1s-8f71996e286e) by [sbourke](https://medium.com/@sbourke) for more thoughts on effective one on ones.
+1. See [Getting more from your one on ones](https://medium.com/@sbourke/getting-more-from-your-1-1s-8f71996e286e) for more thoughts on effective one on ones.
+1. There isn't one best management style. Figure out how someone wants to be managed in your initial one on one:
+    1. What did you like about your previous manager? What didn't you like?
+    1. What do you like to see from a manager?
+1. One on ones where the report is also a manager are typically more "business" where the focus is on strategy, team health and project alignment.
 
 
 ## Coaching
@@ -105,21 +110,24 @@ Heuristics for effective management.
     - Respond with "What are your thoughts so far?" when asked "What should I do?"
 1. Summarize what the person is saying so you're both on the same page and are pinpointing the problem.
     -  "It sounds like there are two issues, x and y. Which should we focus on first?"
-1. Figure out how to make this meeting productive.
+1. Figure out how to make the meeting productive:
     - "What's the next step?"
     - "How should we track this?"
 
 
 ## Feedback
 
+Giving great feedback to reports/managers/peers is one of the most impactful things you can do to drive alignment and build trust.
+
 1. Be prompt, ideally providing feedback the same day of the event that prompted it.
-1. Get buy-in about providing feedback and reduce mystery:
+1. Get buy-in about providing feedback and reduce mystery by giving context:
+    - "Do you have 10 minutes?"  ⛔️
     - "Do you have 10 minutes to talk about this morning's stand up?"
     - "Can I share some thoughts with you about how we've been working together?"
-1. Don't "pad" negative feedback by beginning with compliments - it gives mixed signals.
+1. Don't pad negative feedback by beginning with compliments; it gives mixed signals.
 1. Be specific even if it's positive feedback.
     - "Good job!"  ⛔️
-    - "I like the initiative you took to reduce the service's memory footprint. It shows ownership and leadership."
+    - "I like the initiative you took to reduce the service's memory footprint. It encourages me to give you more ownership so that I can focus elsewhere."
 1. Focus on data and not behavior:
     - "I noticed you didn't address any of the comments made in your last three PRs"
     - "I noticed that you didn't pick up the ticket I asked you to do"
@@ -137,31 +145,32 @@ Heuristics for effective management.
     - "What are a couple of actions you could take right now?"
     - "What are our action items?"
 1. Highlight positive patterns (remember to be specific).
-    - "I like when you take initiative in cleaning up code because it shows initiative and ownership."
-    - "It's great to see you teach X about Y so that they're. That's a positive trait of a senior engineer."
-1. Replay instinctive reactions to help frame the conversation:  
-    <img src="images/replay-instinctive-reactions.png" width="400">  
-    from [The Feedback Fallacy](https://hbr.org/2019/03/the-feedback-fallacy)
-
+    - "It's great to see you teach X about Y so that they're as proficient as you. That's a trait of a senior engineer."
+1. Replay instinctive reactions to help frame the conversation:
+    - "My initial reaction to your proposal is..."
+    - "Here's what I would do" is better than "Here's what you should do"
+    - "When you did X, I felt Y"
 
 ## Thinking strategically
 
 1. What would you do with one more person?
 1. How is your team moving the needle? Are you focusing on the right things? How do you know the features you're building will benefit the customer?
 1. What are your product's mission and tenets?
+1. What is your team's morale? Have you asked them what's not fun about working here?
 1. What are the company's top priorities this year? Where should the company be three years from now?
 1. What are your "rocks" and "pebble" projects this quarter?
-1. What pillars is your team driving and in what way?
+1. What company annual goals is your team driving and in what way?
+1. If you were to get promoted, who from your team would take your place? What skills or experience does this person need to acquire?
 1. What are your team's pain points? How can you move 2x faster?
-1. What "dogs not barking" do you worry about? What are areas in your team you worry about?
-
+1. How well can your team operate without you?
+1. If the company failed, what would be most likely reason?
 
 ## Making decisions
 
 1. Determine if the decision is [reversible vs. irreversible](https://fs.blog/2018/04/reversible-irreversible-decisions/).
     - Reversible decisions can easily be changed. Examples: changing stand up time, contributing guidelines.
     - Irreversible decisions cannot be changed without significant rework. These decisions should take
-  longer and be documented and discussed. Examples: architecture changes, language decision, data models.
+  longer and be documented and discussed. Examples: architecture changes, hiring, org changes, data models.
     - A rubric on technology decisions by [Sam Newman](https://www.amazon.com/Monolith-Microservices-Evolutionary-Patterns-Transform/dp/1492047848):
     <img src="images/tech-decisions.jpg" width="400">
 1. Whenever there is disagreement, focus on the intended outcome of the decision and make sure the team
@@ -192,23 +201,49 @@ Avoid coding in the critical path. [Tips](https://charity.wtf/2019/01/04/enginee
 ## Ticket and PR process
 
 1. Set contributing guidelines for the team.
-1. PRs should always be prioritized. Aim for review SLA of 1 hour.
+1. PRs should small enough to be properly reviewed in under an hour.
+1. Prioritize PRs to unblock tickets.
 1. Automate opinions like style with linting or code formatters like [black](https://github.com/ambv/black).
 
 
-## Meetings
+## Communicating
 
-1. Avoid [shitty brainstorm sessions](https://erikbern.com/2017/12/29/toxic-meeting-culture.html). Don’t defer decisions to meetings. Make decisions on the spot, communicate it over long-form writing, and use the meeting to discuss it.
-1. Encourage proposals to be written as Amazon-style ["6 pagers" and "2 pagers"](https://medium.com/@inowland/using-6-page-and-2-page-documents-to-make-organizational-decisions-3216badde909).  
-    <img src="images/write-like-an-amazonian.jpg" width="400">  
+### Writing
+
+1. Favor long-form writing for proposals over presentations. Writing forces the author to think about the details and tradeoffs.
+1. Favor enumerated lists over bullet list; they're easier to reference.
+1. Encourage Amazon-style ["6 pagers" and "2 pagers"](https://medium.com/@inowland/using-6-page-and-2-page-documents-to-make-organizational-decisions-3216badde909).  
+    <img src="images/write-like-an-amazonian.jpg" width="400">
+1. Write music.  
+    <img src="images/write-music.png" width="400">
+1. Examples:
+    1. [It's Time to Build](https://a16z.com/2020/04/18/its-time-to-build/)
+    1. [We Don’t Sell Saddles Here](https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d)
+
+### Email
+
+1. Prefix the subject with `[Action Required]` if you expect the reader to take action.
+1. Structure your email in the following way (from [7 Tips for Better Executive Communication](https://medium.com/@joefletcher/7-tips-for-better-communication-32cbe84c8ddf)):
+    1. First Paragraph — no more than 2 sentences. This would be the headline and critical information
+    1. Second paragraph — 3–7 bullets. The more bullets, the lower line length. Aim to not wrap sentences.
+    1. Third (final) paragraph — no more than 2–3 sentences focused on the action needed, follow up, and timelines.
+1. "Schedule send" emails when outside of business hours unless they're just FYIs or you need an immediate response.
+
+### Meetings
+
+1. Avoid [shitty brainstorm sessions](https://erikbern.com/2017/12/29/toxic-meeting-culture.html) by encouraging proposals written before having a meeting.
+    > "Don’t defer decisions to meetings. Make decisions on the spot, communicate it over long-form writing, and use the meeting to discuss it." – Erik Bernhardsson
+1. Avoid sync or recurring meetings with no standing agenda.
 1. Always end a meeting with actions, owners and timing, so it's clear what next steps are.
-1. For staff meetings, go around the table and asking reports what their biggest concerns are.  
-    > Many managers want to attend executive staff meetings, as it makes them feel needed and puts them in the know. I made use of this desire by setting a price of admission to the meeting: you had to fess up to at least one thing that was 'on fire.'" - Horowitz
+1. For staff meetings, go around the table and ask reports what their biggest concerns are.  
+    > Many managers want to attend executive staff meetings, as it makes them feel needed and puts them in the know. I made use of this desire by setting a price of admission to the meeting: you had to fess up to at least one thing that was 'on fire.'" – Ben Horowitz
+1. It's worth occasionally asking the meeting attendees whether the meeting is productive or how can it improve.
+1. Before sending an invite, ask yourself why this meeting can't be communicated over email.
 
 
 ## Hiring
 
-> The best programmers are not marginally better than merely good ones. They are an order-of-magnitude better, measured by whatever standard: conceptual creativity, speed, ingenuity of design, or problem-solving ability. – Randall E. Stross
+> If you can 'hire tough,' you can 'manage easy' – Sue Tetzlaff, The Employee Experience
 
 Hiring is the most important decision a manager makes.
 
@@ -221,7 +256,13 @@ What to look for in senior engineers:
     1. "Can you tell me about a time when you had to solve an ambitious problem? Why was the problem important?"
     1. "Can you tell me about a time when you had to make a decision without complete information? What was the situation? What risks did you take? Why did you make the decision you made?"
 1. **Team player**. Takes feedback well.
+    1. "Tell me about a time when you changed your mind about something. What was your thought process behind it?"
+    1. "Tell me about a time when you disagreed with your manager. What did you learn from this situation?"
+    1. "Tell me about a time when you needed the cooperation of a peer who was resistant. What did you do? What was the outcome?"
+    1. "Give me an example of a tough or critical piece of feedback you received. What was it and what did you do about it?"
+    1. "If I were to speak with your peers what positive or negative feedback would they have of you?"
 1. **Communicator**. Can articulate ideas at different levels.
+    1. "What makes a great engineer?"
     1. "Describe to me something you know well."
     1. "You mentioned X in your resume. Explain it to me as if I've never come across it?"
 1. **Teacher**. Enjoys growing other engineers. Especially important for senior-level engineers.
@@ -244,27 +285,43 @@ What to watch out for:
 
 ## Onboarding
 
-Having a good onboarding process is crucial to the success of your team and new team members. It ensures team members are contributing as early as possible and are assimilated into your processes and culture.
+Having a good onboarding process is crucial to the success of your team. It ensures new members are contributing as early as possible and are assimilated into your processes and culture.
 
-An onboarding process is successful if your new team member can contribute a bug fix on the first day of joining.
+An onboarding process is successful if your new team member can contribute a bug fix on their first day of joining.
 
 Onboarding material:
 1. Team mission
     1. How is your team moving the needle for the customer?
 1. Team members
+    1. Include: name, role/title, email, slack username, github username
 1. Repositories and services
-1. Documentation:
+1. How to communicate within the team
+    1. Slack channels
+    1. Keeping yourself informed
+    1. Communication protocols during and outside of business hours
+1. Documentation
     1. Code contributing guidelines
-    1. Ticketing process. E.g. label and story pointing guidelines.
-    1. Glossary of terms.
-    1. Releasing code.
+    1. PR review process
+    1. Ticketing process
+    1. Glossary of terms
+    1. Releasing code
     1. How tos (e.g. migrate database, add secrets)
-1. Getting started:
+1. Getting started
     1. Installation instructions (e.g. Docker, postgres).
-    1. Getting the right accesses (e.g. PagerDuty).
-    1. Running your apps locally.
-1. Meeting setups. Who should your new team member meet with?
+    1. A checklist of all accesses expected (e.g. AWS, PagerDuty)
+    1. Running your apps locally
+    1. Deploying your first bug fix
+1. New hire meetings. Who should your new team member meet with?
 
+
+## Managing up
+
+1. Make sure you and your manager are on the same page by sharing a document listing your project priorities, timelines and confidence levels.
+1. Your manager also needs to manage up. Proactively update your manager on project timeline changes with brief answers to the following questions:
+    1. What is the new timeline?
+    1. Why did the timeline change?
+    1. How confident are you with the new timeline?
+1. Nobody cares for blame or excuses. Own mistakes and document corrective actions you will take to mitigate them going forward.
 
 ## Announcing change
 
@@ -272,25 +329,31 @@ Onboarding material:
 1. Acknowledge the difficulty or opportunity of the change.
 1. Appeal to emotions by using narrative to explain the why.
     1. Why is this change important now for the company?
-    1. Who does this change effect?
+    1. Who does this change affect?
 1. Appeal to logic by using facts.
     1. What metrics will this change achieve?
 1. Socialize the change to get buy in.
     1. Start with the people who it affects the most.
-
+1. Examples:
+    1. [Carta's covid-19 layoff](https://medium.com/@henrysward/cartas-covid-19-layoff-cbb80e3e8a5d)
 
 ## Further reading
 
-1. [Amazon Leadership Principles](https://www.amazon.jobs/en/principles)
+1. [Amazon Leadership Principles](https://www.amazon.jobs/en/principles): The best principles around leadership to operate by.
 1. [Manager's Path](https://www.amazon.com/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/): Excellent guide for all levels of management.
 1. [97 Things Every Engineering Manager Should Know](https://www.amazon.com/Things-Every-Engineering-Manager-Should-ebook/dp/B081TPX6NS): Collection of management tips from various practitioners.
+1. [5 questions every Engineering Manager should be asking themselves](https://www.getclockwise.com/blog/5-questions-every-engineering-manager-should-be-asking-themselves)
 1. [The Pendulum or the Ladder](https://charity.wtf/2019/01/04/engineering-management-the-pendulum-or-the-ladder/): On the challenges of being a manager who wants to stay technical.
-1. [Hard Thing About Hard Things](https://www.amazon.com/Hard-Thing-About-Things-Building-ebook/dp/B00DQ845EA): More on the executive-level side but still worthwhile.
+1. [Hard Thing About Hard Things](https://www.amazon.com/Hard-Thing-About-Things-Building-ebook/dp/B00DQ845EA): More at the executive-level side but still a worthwhile.
 1. [What You Do Is Who You Are](https://www.amazon.com/What-You-Do-Who-Are/dp/0062871331): Why company culture matters and how to establish one.
-1. https://github.com/charlax/engineering-management: Great collection of management articles.
-1. https://medium.com/@radoshi/hiring-engineering-leaders-ca55a87db204: Hiring engineering leaders.
-1. https://erikbern.com/2020/01/13/how-to-hire-smarter-than-the-market-a-toy-model.html: Berkson's paradox and engineering hiring.
-1. https://lifelabslearning.com/. Great workshop for new and experienced managers. I learned a lot from it on feedback, coaching and 1-1s.
-1. https://blog.newrelic.com/technology/hiring-software-engineering-managers-interview/
-1. [The Feedback Fallacy](https://hbr.org/2019/03/the-feedback-fallacy): focus on replaying positive performance so team members know how to repeat excellence.
-1. [Getting more from your one on ones](https://medium.com/@sbourke/getting-more-from-your-1-1s-8f71996e286e) by [sbourke](https://medium.com/@sbourke)
+1. [Engineering Management Repo](https://github.com/charlax/engineering-management): Great collection of management articles.
+1. [Hiring Engineering Leaders](https://medium.com/@radoshi/hiring-engineering-leaders-ca55a87db204): Hiring engineering leaders.
+1. [How to Hire Smarter than the Market](https://erikbern.com/2020/01/13/how-to-hire-smarter-than-the-market-a-toy-model.html): Berkson's paradox and engineering hiring.
+1. [LifeLabs Learning](https://lifelabslearning.com). Great workshop for new and experienced managers. I learned a lot from it on feedback, coaching and 1-1s.
+1. [How Software Engineers Can Help Interview Their Future Managers](https://blog.newrelic.com/technology/hiring-software-engineering-managers-interview): A list of questions for engineers to ask when interviewing managers.
+1. [Getting more from your one on ones](https://medium.com/@sbourke/getting-more-from-your-1-1s-8f71996e286e): How to measure successful one on ones.
+1. [7 Tips for Better Executive Communication](https://medium.com/@joefletcher/7-tips-for-better-communication-32cbe84c8ddf): Tips on how to communicate effectively.
+1. [Toxic Meeting Culture](https://erikbern.com/2017/12/29/toxic-meeting-culture.html): How to avoid meeting antipatterns.
+1. [The rise of feedback: Why feedback skills have become urgent](https://ideas.lifelabslearning.com/the-rise-of-feedback-why-feedback-skills-have-become-urgent)
+1. [Want to get better feedback? Ask a better question. Here’s how.
+](https://medium.com/lifelabs-learning/want-to-get-better-feedback-ask-a-better-question-heres-how-64d679a598a)
